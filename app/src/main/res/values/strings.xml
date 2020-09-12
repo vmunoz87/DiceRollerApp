@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="Roll">Roll the dice</string>
+    <string name="dice_Result">Dice Random result</string>
+</resources>
