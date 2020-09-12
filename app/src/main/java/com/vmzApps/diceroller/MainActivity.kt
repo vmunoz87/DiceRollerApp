@@ -13,14 +13,16 @@ import kotlin.random.nextInt
 
 
 class MainActivity : AppCompatActivity() {
+
+    lateinit var diceImage: ImageView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //MAPPIMG : Create a value to use it in the app (button) calling the "R" (stand for ressource) Class, looking for the Id of my button (linked by XML)
         val rollButton : Button = findViewById(R.id.roll_button)
         val diceResult : TextView = findViewById(R.id.dice_result_text)
-        val diceImage : ImageView = findViewById(R.id.dice_Image)
+        diceImage = findViewById(R.id.dice_Image)
 
         diceResult.text = "Dice rolling Game"
         rollButton.text= "Let's roll babe"
