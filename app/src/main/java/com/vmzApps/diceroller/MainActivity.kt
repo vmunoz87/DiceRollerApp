@@ -14,6 +14,7 @@ import kotlin.random.nextInt
 
 class MainActivity : AppCompatActivity() {
 
+    //Added line
     lateinit var diceImage: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
